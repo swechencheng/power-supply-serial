@@ -11,7 +11,7 @@ def main(port):
     serial_port.bytesize = serial.EIGHTBITS
     serial_port.stopbits = serial.STOPBITS_ONE
     serial_port.xonxoff = True
-    serial_port.timeout = 1  # Set the timeout to 1 second
+    serial_port.timeout = 0.1  # Set the timeout to 0.1 second
 
     # Initialize an empty list to store the command history
     history = []
