@@ -9,3 +9,6 @@ Tested on some Aim-TTi MX devices.
 ## Prerequest
 You need to install module `serial` and `readline` first to be able to run this script.
 
+## Usage
+
+You can refer to this [blog](https://swechencheng.github.io/blog/remote-control-a-power-supply/).
